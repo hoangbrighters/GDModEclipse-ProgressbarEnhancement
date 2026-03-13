@@ -1,6 +1,6 @@
 {
     "name": "Brighters PB 1. Leftside",
-    "text": "{levelStars}{starEmoji} [       ]",
+    "text": "{levelStars}{!isPlatformer ? starEmoji : moonEmoji} [       ]",
     "font": "bigFont.fnt",
     "scale": 0.3199999928474426,
     "color": "FFFFFFFF",

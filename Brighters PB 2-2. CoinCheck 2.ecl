@@ -1,6 +1,6 @@
 {
     "name": "Brighters PB 2-2. CoinCheck 2",
-    "text": "{cCoin = isRobtopLevel ? 'secretCoin' : 'userCoin'\n;  len(coins) >= 1 ? (coins[0] == 1 ? emojis[cCoin][1] : coins[0] == 2 ? starEmoji : emojis[cCoin][0]) : crossEmoji\n}{len(coins) >= 2 ? '󠀠' + (coins[1] == 1 ? emojis[cCoin][1] : coins[1] == 2 ? starEmoji : emojis[cCoin][0]) : ''\n}{len(coins) >= 3 ? '󠀠' + (coins[2] == 1 ? emojis[cCoin][1] : coins[2] == 2 ? starEmoji : emojis[cCoin][0]) : ''}",
+    "text": "{cCoin = isRobtopLevel ? 'secretCoin' : 'userCoin';\ncheckStarMoon = !isPlatformer ? starEmoji : moonEmoji ;\nlen(coins) >= 1 ? (coins[0] == 1 ? emojis[cCoin][1] : coins[0] == 2 ? checkStarMoon : emojis[cCoin][0]) : crossEmoji\n}{len(coins) >= 2 ? '󠀠' + (coins[1] == 1 ? emojis[cCoin][1] : coins[1] == 2 ? checkStarMoon : emojis[cCoin][0]) : ''\n}{len(coins) >= 3 ? '󠀠' + (coins[2] == 1 ? emojis[cCoin][1] : coins[2] == 2 ? checkStarMoon : emojis[cCoin][0]) : ''}",
     "font": "bigFont.fnt",
     "scale": 0.3199999928474426,
     "color": "FFFFFFFF",
@@ -13,7 +13,7 @@
     "events": [{
         "enabled": true,
         "type": 1,
-        "condition": "len(coins)==3 && coins[0]==2 && coins[1]==2",
+        "condition": "!isPlatformer && len(coins)==3 && coins[0]==2 && coins[1]==2",
         "delay": 0,
         "duration": 0,
         "easing": 0,

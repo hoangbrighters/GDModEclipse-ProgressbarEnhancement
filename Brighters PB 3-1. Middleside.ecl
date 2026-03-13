@@ -5,9 +5,9 @@
     "scale": 0.3499999940395355,
     "color": "FFFFFFFF",
     "visible": true,
-    "absolutePosition": false,
+    "absolutePosition": true,
     "offset-x": 0,
-    "offset-y": 0,
+    "offset-y": 2,
     "alignment": 1,
     "fontAlignment": 1,
     "events": [{
