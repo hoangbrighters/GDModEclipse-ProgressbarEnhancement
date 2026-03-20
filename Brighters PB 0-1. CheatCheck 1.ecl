@@ -3,7 +3,7 @@
     "text": "{\nlastAttempt != attempt ?? haveCheats = 0;\nisCheating ?? haveCheats = 1;\nlastAttempt = attempt;\nhaveCheats && !isCheating ?? haveCheats = 2;\nhaveCheats == 2 ?? 'E'\n}",
     "font": "bigFont.fnt",
     "scale": 0.30000001192092896,
-    "color": "FFD800FF",
+    "color": "FFD8004C",
     "visible": true,
     "absolutePosition": true,
     "offset-x": 10,
