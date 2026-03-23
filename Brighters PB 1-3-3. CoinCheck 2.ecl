@@ -7,7 +7,7 @@
     "visible": true,
     "absolutePosition": true,
     "offset-x": 119.69999694824219,
-    "offset-y": 3.4000000953674316,
+    "offset-y": 4,
     "alignment": 7,
     "fontAlignment": 1,
     "events": [{

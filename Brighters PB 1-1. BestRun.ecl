@@ -13,7 +13,7 @@
     "events": [{
         "enabled": true,
         "type": 1,
-        "condition": "!isPracticeMode && (progress >= bestRun)",
+        "condition": "!isPlatformer && !isPracticeMode && (progress >= bestRun)",
         "delay": 0,
         "duration": 0,
         "easing": 0,
