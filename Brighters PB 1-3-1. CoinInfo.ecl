@@ -6,8 +6,8 @@
     "color": "FFFFFF66",
     "visible": true,
     "absolutePosition": true,
-    "offset-x": 150,
-    "offset-y": 4,
+    "offset-x": 130,
+    "offset-y": 3,
     "alignment": 8,
     "fontAlignment": 2,
     "events": [{
